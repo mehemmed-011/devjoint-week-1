@@ -617,9 +617,8 @@ nav{
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     padding: 3vw;
-    gap: 4vw;
+    gap: 5vw;
     border-radius: 1vw;
-    box-shadow: 0 0 10px lightgray;
     position: fixed;
     top: 0;
     right: 0;
@@ -629,6 +628,7 @@ nav{
 
 .mobil-nav.active{
     transform: translateX(0);
+    box-shadow: 0 0 10px lightgray;
 }
 
 .cancel-icon-box{
@@ -643,7 +643,7 @@ nav{
 .mob-link-box{
     display: flex;
     flex-direction: column;
-    gap: 3vw;
+    gap: 3.5vw;
 }
 
 .mob-link{
@@ -651,8 +651,8 @@ nav{
     color: black;
     background-color: rgb(229, 239, 255);
     border-radius: 1vw;
-    padding: 1vw;
-    font-size: 3vw;
+    padding: 2vw;
+    font-size: 4vw;
     font-weight: 400;
 }
 
