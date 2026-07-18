@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="header-container">
-            <div class="logo">NovaTech</div>
+            <a class="logo" href="./index.html">NovaTech</a>
             <nav>
                 <a class="link" href="#about">Haqqımızda</a>
                 <a class="link" href="#gallery">Qalereya</a>
@@ -38,7 +38,7 @@
                         </div>
                         <div class="left-box-2">
                             <h4>Texniki Dəstək Linkimiz</h4>
-                            <p>https://novatech-solutions.az/super-long-url-tracking-token-id-9876543210qwertyuiopasdfghjklzxcvbnm1234567890</p>
+                            <a href="https://novatech-solutions.az/super-long-url-tracking-token-id-9876543210qwertyuiopasdfghjklzxcvbnm1234567890" target="_blank">https://novatech-solutions.az/super-long-url-tracking-token-id-9876543210qwertyuiopasdfghjklzxcvbnm1234567890</a>
                         </div>
                     </div>
                     <div class="about-right-box">
@@ -70,14 +70,14 @@
             <div class="contact-container">
                 <h2>Bizimlə Əlaqə</h2>
                 <form class="contact-form">
-                    <label>Ad və Soyad *
-                        <input class="name-box" type="text" placeholder="Əli Məmmədov">
+                    <label for="name">Ad və Soyad *
+                        <input id="name" class="name-box" type="text" placeholder="Əli Məmmədov" required>
                     </label>
-                    <label>Elektron poçt *
-                        <input class="email-box" type="email" placeholder="mammadov.ali.professional-developer@company-domain.az">
+                    <label for="email">Elektron poçt *
+                        <input id="email" class="email-box" type="email" placeholder="mammadov.ali.professional-developer@company-domain.az" required>
                     </label>
-                    <label>Mesajınız *
-                        <textarea class="message-box" rows="5" placeholder="Layihəniz barədə qısa məlumat"></textarea>
+                    <label for="message">Mesajınız *
+                        <textarea id="message" class="message-box" rows="5" placeholder="Layihəniz barədə qısa məlumat" required></textarea>
                     </label>
                     <button class="submit-btn" type="submit">Göndər</button>
                 </form>
