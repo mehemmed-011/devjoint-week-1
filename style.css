@@ -7,6 +7,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header{
     width: 100%;
     height: 3.5vw;
@@ -609,7 +613,7 @@ nav{
 .mobil-nav{
     width: 40vw;
     height: 100vh;
-    display: none;
+    display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     padding: 3vw;
@@ -619,10 +623,16 @@ nav{
     position: fixed;
     top: 0;
     right: 0;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+}
+
+.mobil-nav.active{
+    transform: translateX(0);
 }
 
 .cancel-icon-box{
-    width: 100%;
+    width: 95%;
     text-align: right;
 }
 
