@@ -611,7 +611,7 @@ nav{
 }
 
 .mobil-nav{
-    width: 40vw;
+    width: 50vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -632,7 +632,7 @@ nav{
 }
 
 .cancel-icon-box{
-    width: 95%;
+    width: 96%;
     text-align: right;
 }
 
@@ -687,6 +687,7 @@ nav{
 .about-section{
     scroll-margin-top: 14vw;
     padding: 6vw 0;
+    min-height: calc(100vh - 14vw);
 }
 
 .about-container{
@@ -772,6 +773,7 @@ nav{
     scroll-margin-top: 14vw;
     height: auto;
     padding: 6vw 0;
+    min-height: calc(100vh - 14vw);
 }
 
 .gallery-container{
@@ -813,7 +815,8 @@ nav{
 .contact-section{
     scroll-margin-top: 14vw;
     height: auto;
-    padding: 6vw 0;
+    padding: 12vw 0;
+    min-height: calc(100vh - 14vw);
 }
 
 .contact-container{
