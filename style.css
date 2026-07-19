@@ -692,7 +692,7 @@ nav{
 
 .about-container{
     width: 90%;
-    gap: 8vw;
+    gap: 10vw;
 }
 
 .about-container h2{
@@ -704,19 +704,19 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4vw;
+    gap: 8vw;
 }
 
 .about-left-box{
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 4vw;
+    gap: 6vw;
 }
 
 .left-box-1{
     width: 100%;
-    gap: 2vw;
+    gap: 3vw;
 }
 
 .left-box-1 h3{
@@ -728,7 +728,7 @@ nav{
 }
 
 .left-box-2{
-    gap: 2vw;
+    gap: 3vw;
     padding: 3vw;
     border-radius: 1.2vw;
     border-left: 1.5vw solid rgb(218, 0, 116);
@@ -740,6 +740,7 @@ nav{
 
 .left-box-2 a{
     font-size: 3.2vw;
+    line-height: 1.6;
 }
 
 .about-right-box{
@@ -748,12 +749,12 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3vw;
+    gap: 6vw;
 }
 
 .right-box{
     width: 100%;
-    height: 28vw;
+    height: 30vw;
     gap: 2vw;
     border-radius: 1.2vw;
 }
