@@ -349,6 +349,15 @@ main{
     transition: ease 300ms;
 }
 
+.error{
+    color: red;
+    font-size: 0.9vw;
+}
+
+.error-border{
+    border: 1px solid red;
+}
+
 footer{
     width: 100%;
     height: 6vw;
@@ -567,6 +576,10 @@ nav{
     height: 5vw;
     font-size: 2vw;
     border-radius: 1vw;
+}
+
+.error{
+    font-size: 1.8vw;
 }
 
 footer{
@@ -860,6 +873,10 @@ nav{
     color: white;
     font-size: 4vw;
     border-radius: 2vw;
+}
+
+.error{
+    font-size: 3.6vw;
 }
 
 footer{

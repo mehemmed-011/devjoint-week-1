@@ -81,15 +81,18 @@
         <section id="contact" class="contact-section">
             <div class="contact-container">
                 <h2>Bizimlə Əlaqə</h2>
-                <form class="contact-form">
+                <form class="contact-form" novalidate>
                     <label for="name">Ad və Soyad *
-                        <input id="name" class="name-box" type="text" placeholder="Əli Məmmədov" required>
+                        <input id="name" class="name-box" type="text" placeholder="Əli Məmmədov">
+                        <span class="error name-error"></span>
                     </label>
                     <label for="email">Elektron poçt *
-                        <input id="email" class="email-box" type="email" placeholder="mammadov.ali.professional-developer@company-domain.az" required>
+                        <input id="email" class="email-box" type="email" placeholder="mammadov.ali.professional-developer@company-domain.az">
+                        <span class="error email-error"></span>
                     </label>
                     <label for="message">Mesajınız *
-                        <textarea id="message" class="message-box" rows="5" placeholder="Layihəniz barədə qısa məlumat" required></textarea>
+                        <textarea id="message" class="message-box" rows="5" placeholder="Layihəniz barədə qısa məlumat"></textarea>
+                        <span class="error message-error"></span>
                     </label>
                     <button class="submit-btn" type="submit">Göndər</button>
                 </form>
