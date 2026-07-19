@@ -379,6 +379,14 @@ footer{
     color: gray;
 }
 
+a:focus,
+button:focus,
+input:focus,
+textarea:focus{
+    outline: 3px solid blue;
+    outline-offset: 3px;
+}
+
 @media (max-width: 990px) {
     header{
     height: 7vw;
